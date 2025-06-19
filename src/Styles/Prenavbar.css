@@ -1,0 +1,29 @@
+.Prenav{
+    background-color: rgb(29,28,28);
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    color: white;
+}
+
+
+.Prenav > div{
+    padding : 0vmax 4vmax; /*viewport size*/
+    display : flex;
+    align-items: center;
+}
+
+.Prenav>div>span{
+    color: rgba(180, 180, 180, 0.64);
+    font-size: 0.94vmax;
+    font-weight: 100;
+}
+.Prenav>div>a{
+    color:antiquewhite;
+    font-size:1vmax;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 1vmax;
+    text-decoration: none;
+}
+.Prenav>div>a:hover{
+    color:navajowhite;
+}
